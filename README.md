@@ -1,30 +1,36 @@
 # REAL_lab_info
 Information about our lab, the repositories that we use and how we work.
 
-# Robot repositories
+# Repositories that we work with
 
-## UR5
+## Robot repositories
 
-## Franka
+### UR5
 
-## Husky
+### Franka
 
-## Jackal
+### Husky
 
-## Interbotix Arms
+### Jackal
 
-## Locobot
+### Interbotix Arms
 
-## Stella
+### Locobot
 
-## Unitree
+### Stella
 
-## Sensors
+### Unitree
 
-# RL packages
+### Sensors
 
-## RL algorithm repositories 
+## RL packages
 
-# Projects
+### RL algorithm repositories 
 
-## Robo Zoo
+## Projects
+
+### Robo Zoo
+
+# Software development practices
+
+# Useful tools
