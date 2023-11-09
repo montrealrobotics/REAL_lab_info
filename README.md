@@ -36,7 +36,9 @@ We are currently using the following repositories:
 &nbsp;&nbsp;&nbsp;&nbsp; We use this kinematics package for calculating forward and inverse kinematics for the UR5, it is not used in our normal pipeline but is required for [robo-gym](https://github.com/montrealrobotics/robo-gym). This package was cloned and edited to be a catkin package.
 
 ### Robotiq Grippers
-![robotiq-grippers.png](..%2FDownloads%2Frobotiq-grippers.png)
+![robotiq-grippers](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/b2b9339d-33dc-4a91-964c-2125b2a33ed7)
+
+
 There are three 2F-85 grippers and one hand-e gripper in the lab. The mounting can be used to attach the grippers to either 
 a UR5 arm or a Franka Panda/FR3 arm.
 
