@@ -35,50 +35,126 @@ We are currently using the following repositories:
 
 &nbsp;&nbsp;&nbsp;&nbsp; We use this kinematics package for calculating forward and inverse kinematics for the UR5, it is not used in our normal pipeline but is required for [robo-gym](https://github.com/montrealrobotics/robo-gym). This package was cloned and edited to be a catkin package.
 
+### Robotiq Grippers
+![robotiq-grippers.png](..%2FDownloads%2Frobotiq-grippers.png)
+There are three 2F-85 grippers and one hand-e gripper in the lab. The mounting can be used to attach the grippers to either 
+a UR5 arm or a Franka Panda/FR3 arm.
+
+The repository that we use with these grippers is:
+
+&nbsp;&nbsp;&nbsp;&nbsp;  **[robotiq](https://github.com/montrealrobotics/robotiq)**
+
 ### Franka
 ![csm_franka_panda_bedienung_6b014be50b](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/6c184aca-bee8-4c85-9e11-2c8d600354b6)
 
+We have three Franka FR3 arms in the lab. 
+We currently control them with the [Polymetis](https://github.com/montrealrobotics/fairo) controller.
 
+Other Franka repositories that we use:
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[panda-gym](https://github.com/montrealrobotics/panda-gym)**
 
 ### Husky
 ![A008_C036_0730G1](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/ffb90a84-6e96-405b-8dcc-19c2073284f6)
 
+Repositories that we use for this robot:
 
+&nbsp;&nbsp;&nbsp;&nbsp; **[REAL_Husky_robot](https://github.com/montrealrobotics/REAL_Husky_robot)**
 
 ### Jackal
 ![A008_C100_0730BA](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/a3e0cae1-cb33-466b-a646-a822f20af8d4)
 
+### Unitree Go1
+![go1-800x600](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/06779495-8237-4ade-90c1-a176d0b469e7)
 
+Repositories that we use for this robot:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**[REAL_unitree_robots](https://github.com/montrealrobotics/REAL_unitree_robots)**
 
 ### Interbotix Arms
 ![xsarm_family](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/ca5cef23-7b06-4074-877d-3fb171cb468e)
 
+Repositories that we use for this robot:
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[REAL_interbotix_sdk](https://github.com/montrealrobotics/REAL_interbotix_sdk)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[REAL_interbotix_udp_to_ros](https://github.com/montrealrobotics/REAL_interbotix_udp_to_ros)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[interbotix_ros_core](https://github.com/montrealrobotics/interbotix_ros_core)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[interbotix_ros_manipulators](https://github.com/montrealrobotics/interbotix_ros_manipulators)**
 
 
 ### Locobot
 ![wx200_front](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/d92adabb-6068-4a5c-ae9b-545fc1db8adf)
 
+We have several Locobots in the lab. The documentation for how to get them up and running is [here](https://docs.trossenrobotics.com/interbotix_xslocobots_docs/ros_interface/ros1/software_setup.html)
 
+Repositories that we use for this robot:
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[interbotix_ros_rovers](https://github.com/Interbotix/interbotix_ros_rovers)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; This is a repository external to our organisation and the one that we use to control the robots.
 
 ### Stella
 ![Screenshot from 2023-09-07 15-14-24](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/b4bda192-423b-4f38-82f5-661e8d781e6d)
+We have one Stella quadruped from ahead.io in the lab. The robot can be controlled to execute simple commands via a joystick.
+For more low level control of the robot, we are waiting for control software for the robot, it is currently still
+in development. 
 
+&nbsp;&nbsp;&nbsp;&nbsp; **[acreature-server](https://github.com/AheadIO/acreature-server)**
 
-
-### Unitree Go1
-![go1-800x600](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/06779495-8237-4ade-90c1-a176d0b469e7)
-
+&nbsp;&nbsp;&nbsp;&nbsp; This is the external repository where the code to control the Stella is being developed. It contains
+the server software which should run onboard the robot as well as python examples which can be run on a remote computer.
 
 
 ### Sensors
+&nbsp;&nbsp;&nbsp;&nbsp; **[open3d-realsense](https://github.com/montrealrobotics/open3d-realsense)**
 
 ## RL packages
 
+&nbsp;&nbsp;&nbsp;&nbsp;**[DeepRLInTheWorld](https://github.com/montrealrobotics/DeepRLInTheWorld)**
+
+### Training toolkits
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[robo-gym](https://github.com/montrealrobotics/robo-gym)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[robo-gym-robot-servers](https://github.com/montrealrobotics/robo-gym-robot-servers)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[safety-gym](https://github.com/montrealrobotics/safety-gym)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[safety-gymnasium](https://github.com/montrealrobotics/safety-gymnasium)**
+
 ### RL algorithm repositories 
+&nbsp;&nbsp;&nbsp;&nbsp; **[cleanrl](https://github.com/montrealrobotics/cleanrl)**
+
+================================================================================
 
 ## Projects
+### Robo zoo
+&nbsp;&nbsp;&nbsp;&nbsp; **[REAL_robo_zoo](https://github.com/montrealrobotics/REAL_robo_zoo)**
 
-### Robo Zoo
+### Pupper fetch
+&nbsp;&nbsp;&nbsp;&nbsp; **[pupperfetch](https://github.com/montrealrobotics/pupperfetch)**
+
+### iv_rl
+&nbsp;&nbsp;&nbsp;&nbsp; **[iv_rl](https://github.com/montrealrobotics/iv_rl)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[iv-rl-experiments](https://github.com/montrealrobotics/iv-rl-experiments)**
+
+### R2D2
+&nbsp;&nbsp;&nbsp;&nbsp; **[R2D2](https://github.com/montrealrobotics/R2D2)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[fairo](https://github.com/montrealrobotics/fairo)**
+
+### LTVN
+&nbsp;&nbsp;&nbsp;&nbsp; **[ltvn](https://github.com/montrealrobotics/ltvn)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[ltvn_old](https://github.com/montrealrobotics/ltvn_old)**
+
+
+
+================================================================================
 
 # Software development practices
 
@@ -96,5 +172,6 @@ To contribute to these repositories, students should:
  - Commits should be descriptive so that if required, changes can be more easily tracked.
  - Keep changes in new branches so that your main branch is stable. Merge to main once tested.
 
+================================================================================
 
 # Useful tools
