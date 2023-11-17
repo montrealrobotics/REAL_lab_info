@@ -94,9 +94,9 @@ We have several Locobots in the lab. The documentation for how to get them up an
 
 Repositories that we use for this robot:
 
-&nbsp;&nbsp;&nbsp;&nbsp; **[interbotix_ros_rovers](https://github.com/Interbotix/interbotix_ros_rovers)**
+&nbsp;&nbsp;&nbsp;&nbsp; **[interbotix_ros_rovers](https://github.com/montrealrobotics/interbotix_ros_rovers)**
 
-&nbsp;&nbsp;&nbsp;&nbsp; This is a repository external to our organisation and the one that we use to control the robots.
+&nbsp;&nbsp;&nbsp;&nbsp; This is a fork of the original repository. We use this repo to control the locobots.
 
 ### Stella
 ![Screenshot from 2023-09-07 15-14-24](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/b4bda192-423b-4f38-82f5-661e8d781e6d)
