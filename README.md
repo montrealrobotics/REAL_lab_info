@@ -17,6 +17,7 @@ We want to keep track of the repositories that we are using for our projects in 
 
 
 We have a UR5 and a UR5e in the lab. The UR5 is currently mounted on the Husky and the UR5e is mounted in a cage. We have two robotiq grippers (a 2F-85 and a hand-e) that can be mounted on either of the arms. To work with the robots we suggest using ROS Noetic and Ubuntu 20.04.
+
 We are currently using the following repositories:
 
 &nbsp;&nbsp;&nbsp;&nbsp; **[REAL_ur_robots](https://github.com/montrealrobotics/REAL_ur_robots)**
@@ -59,7 +60,7 @@ Other Franka repositories that we use:
 ### Husky
 ![A008_C036_0730G1](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/ffb90a84-6e96-405b-8dcc-19c2073284f6)
 
-Repositories that we use for this robot:
+Repositories that we use with this robot:
 
 &nbsp;&nbsp;&nbsp;&nbsp; **[REAL_Husky_robot](https://github.com/montrealrobotics/REAL_Husky_robot)**
 
@@ -69,14 +70,14 @@ Repositories that we use for this robot:
 ### Unitree Go1
 ![go1-800x600](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/06779495-8237-4ade-90c1-a176d0b469e7)
 
-Repositories that we use for this robot:
+Repositories that we use with this robot:
 
 &nbsp;&nbsp;&nbsp;&nbsp;**[REAL_unitree_robots](https://github.com/montrealrobotics/REAL_unitree_robots)**
 
 ### Interbotix Arms
 ![xsarm_family](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/ca5cef23-7b06-4074-877d-3fb171cb468e)
 
-Repositories that we use for this robot:
+Repositories that we use with this robot:
 
 &nbsp;&nbsp;&nbsp;&nbsp; **[REAL_interbotix_sdk](https://github.com/montrealrobotics/REAL_interbotix_sdk)**
 
@@ -92,7 +93,7 @@ Repositories that we use for this robot:
 
 We have several Locobots in the lab. The documentation for how to get them up and running is [here](https://docs.trossenrobotics.com/interbotix_xslocobots_docs/ros_interface/ros1/software_setup.html)
 
-Repositories that we use for this robot:
+Repositories that we use with this robot:
 
 &nbsp;&nbsp;&nbsp;&nbsp; **[interbotix_ros_rovers](https://github.com/montrealrobotics/interbotix_ros_rovers)**
 
@@ -104,11 +105,25 @@ We have one Stella quadruped from ahead.io in the lab. The robot can be controll
 For more low level control of the robot, we are waiting for control software for the robot, it is currently still
 in development. 
 
+Repositories that we use with this robot:
+
 &nbsp;&nbsp;&nbsp;&nbsp; **[acreature-server](https://github.com/AheadIO/acreature-server)**
 
 &nbsp;&nbsp;&nbsp;&nbsp; This is the external repository where the code to control the Stella is being developed. It contains
 the server software which should run onboard the robot as well as python examples which can be run on a remote computer.
 
+### Pupper
+
+![pupper-hero (1)](https://github.com/montrealrobotics/REAL_lab_info/assets/11501425/0e7c1a09-2012-4d70-90f1-53048ab708e6)
+
+We have built one pupper from the Stanford [pupper project](https://pupper-independent-study.readthedocs.io/en/latest/index.html) and have all of the parts for a second build. 
+
+Repositories that we use with this robot:
+
+&nbsp;&nbsp;&nbsp;&nbsp; **[puppersim](https://github.com/montrealrobotics/puppersim)**
+
+&nbsp;&nbsp;&nbsp;&nbsp; This repo was forked from the group at Stanford that developed the Pupper project, it includes code for the Pupper simulation and code for training and running policies. A project called 'reacher'
+is included, it simulates just one of the legs of the pupper mounted on a plate and is used for some of the training/policy playback examples. For more information, check out the course in the link provided above.
 
 ### Sensors
 &nbsp;&nbsp;&nbsp;&nbsp; **[open3d-realsense](https://github.com/montrealrobotics/open3d-realsense)**
